@@ -58,7 +58,7 @@ public class Main {
 
                 System.out.print("Enter a cost in dollars and cents (-1 to end): ");
                 cost = scan.nextDouble();
-                costTotal = costTotal + cost;
+                costTotal = (Math.round((costTotal + cost) * 100.0) / 100.0);
 
             }
 
@@ -87,8 +87,10 @@ public class Main {
             }
 
             System.out.println();
+
             System.out.print("Enter any integer to perform another calculation, -1 to quit: ");
             x = scan.nextInt();
+
             System.out.println();
         }
     }
