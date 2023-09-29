@@ -33,6 +33,20 @@
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/BT_2N2_11/IdeaProjects/AnvaerTipCalculator/src/Main.java&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="AnvaerTipCalculator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -73,5 +87,8 @@
     <MESSAGE value="Rounded costs for receipt results" />
     <MESSAGE value="Added list of items for receipt" />
     <option name="LAST_COMMIT_MESSAGE" value="Added list of items for receipt" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/AnvaerTipCalculator$Main.ic" NAME="Main Coverage Results" MODIFIED="1696008895834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

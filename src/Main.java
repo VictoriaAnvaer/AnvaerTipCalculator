@@ -27,10 +27,15 @@ public class Main {
         System.out.println("Welcome to the tip calculator!");
 
         while (x != -1) { // while loop gives the ability to calculate multiple situations
+
+            menuItem.clear(); // clears list of items from previous order
+
             System.out.print("How many people are in your group: ");
             peopleAmount = scan.nextInt();
             System.out.print("What's the tip percentage? (0-100): ");
             tipPercent = scan.nextInt();
+
+            System.out.println();
 
             System.out.print("Enter a cost in dollars and cents (-1 to end): ");
             cost = scan.nextDouble();
@@ -64,6 +69,8 @@ public class Main {
 
             // final receipt
 
+            System.out.println();
+
             System.out.println("Total bill before tip: $" + costTotal);
             System.out.println("Total percentage: " + tipPercent + "%");
             System.out.println("Total tip: $" + totalTip);
@@ -72,12 +79,14 @@ public class Main {
             System.out.println("Tip per person: $" + (Math.round((totalTip / peopleAmount) * 100.0) / 100.0));
             System.out.println("Total cost per person: $" + (Math.round((finalCost / peopleAmount) * 100.0) / 100.0));
 
+            System.out.println();
 
             System.out.println("Items ordered: "); // prints all menu items ordered from the array list
             for (String i: menuItem) {
                 System.out.println(i);
             }
 
+            System.out.println();
             System.out.print("Enter any integer to perform another calculation, -1 to quit: ");
             x = scan.nextInt();
             System.out.println();
